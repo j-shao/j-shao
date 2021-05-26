@@ -112,7 +112,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #f56a6a;
+  color: inherit;
   text-decoration: none; }
   a:hover {
     border-bottom-color: #f56a6a;
@@ -1056,7 +1056,7 @@ textarea {
   input[type="url"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #f56a6a;
+    border-color: inherit;
     box-shadow: 0 0 0 1px #f56a6a; }
 
 select {
